@@ -19,7 +19,9 @@ const Message = ({ message }: MessagePropsType) => {
           <pre id={"hw1-text-" + message.id} className={s.messageText}>
             {message.message.text}
           </pre>
+          
         </div>
+        
       </div>
       <div id={"hw1-time-" + message.id} className={s.time}>
         {message.message.time}

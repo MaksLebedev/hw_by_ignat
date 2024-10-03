@@ -1,31 +1,66 @@
 .friendMessage {
-
+  /* outline: 2px solid red; */
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .friendImageAndText {
+  display: flex;
 
+  align-items: start;
 }
 
 .friendImageAndText img {
-
+  width: 48px;
+  padding-right: 10px;
+  margin-top: auto
 }
 
 .friendText {
-
+  position: relative; /* Позволяет позиционировать псевдоэлементы относительно этого блока */
+  background-color: #007bff; /* Синий фон */
+  padding: 8px 15px; /* Внутренние отступы */
+  border-radius: 10px; /* Закругленные углы */
+  max-width: 527px; /* Максимальная ширина сообщения */
+  /* margin: 20px; !* Отступы вокруг блока *! */
+  /* margin: 0 10px 0 0; */
+  /* margin: auto */
+  text-align: left;
 }
 
 .friendText:after {
-
+  content: ""; /* Псевдоэлемент без контента */
+  position: absolute; /* Абсолютное позиционирование относительно родителя */
+  bottom: 0; /* Располагаем внизу */
+  left: -10px; /* Сдвигаем вправо за пределы блока */
+  width: 0;
+  height: 0;
+  border: 20px solid transparent; /* Треугольник из прозрачных границ */
+  border-bottom-color: #007bff; /* Цвет треугольника совпадает с цветом блока */
+  border-right: 0; /* Убираем правую границу */
 }
 
 .friendName {
-
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .friendMessageText {
-
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
 }
 
 .friendTime {
-
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
 }

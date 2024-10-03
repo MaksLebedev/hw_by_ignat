@@ -40,7 +40,7 @@ export const message0: MessageType = {
   },
   message: {
     text: "Hello, she didn’t do anything and rested all day, how are you?", // можно менять
-    time: "22:00", // можно менять
+    time: "9:01", // можно менять
   },
 };
 export const friendMessage0: MessageType = {
