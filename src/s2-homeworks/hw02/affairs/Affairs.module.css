@@ -1,4 +1,6 @@
 .buttonContainer {
+    width: 1280px;
+    margin: 0 auto;
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
@@ -48,6 +50,8 @@
 }
 
 .affairs {
+    width: 1280px;
+    /* margin: 0 auto; */
     display: flex;
     gap: 17px;
     flex-wrap: wrap;
