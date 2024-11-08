@@ -7,16 +7,18 @@
 .background {
 }
 
-.nav {
+.nav {    
 }
 
 .nav a {
+    color: red
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+    color: green
 }
 .close {
 }
